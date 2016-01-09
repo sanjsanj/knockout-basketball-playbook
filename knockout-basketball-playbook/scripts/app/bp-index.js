@@ -22,6 +22,7 @@ var viewModel = {
     },
 
     deleteTag: function () {
+        viewModel.tags.remove(this);
     }
 };
 
